@@ -1,0 +1,20 @@
+[modules.CuckooP3]
+imports = ["Foundation"]
+testableImports = ["CuckooP3"]
+sources = [
+    "./CuckooP2/CommentList/Service/*.swift",
+]
+exclude = [
+    "ExcludedTestClass",
+    "ExcludedProtocol",
+]
+# regex = ""
+output = "./CuckooP2Tests/GeneratedMocks/Mocks.swift"
+
+[modules.CuckooP3.options]
+glob = true
+keepDocumentation = false
+
+[modules.CuckooP3.xcodeproj]
+path = "."
+target = "CuckooP3"
