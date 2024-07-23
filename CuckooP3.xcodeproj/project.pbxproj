@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BCC335F2C4E89CD00CED73D /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCC335E2C4E89CD00CED73D /* Cuckoo */; };
-		8BCC33612C4E89CD00CED73D /* CuckooGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCC33602C4E89CD00CED73D /* CuckooGenerator */; };
+		8B9772B92C4F75FA00DEFEAD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9772B82C4F75FA00DEFEAD /* Alamofire */; };
+		8B9772BB2C4F75FA00DEFEAD /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9772BA2C4F75FA00DEFEAD /* AlamofireDynamic */; };
+		8B9772D62C4F8D9600DEFEAD /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9772D52C4F8D9600DEFEAD /* Cuckoo */; };
+		8B9772D82C4F908000DEFEAD /* CuckooGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9772D72C4F908000DEFEAD /* CuckooGenerator */; };
 		8BD5533F2C453A0700DC73A8 /* CuckooP3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5533E2C453A0700DC73A8 /* CuckooP3App.swift */; };
 		8BD553412C453A0700DC73A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD553402C453A0700DC73A8 /* ContentView.swift */; };
 		8BD553432C453A0900DC73A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD553422C453A0900DC73A8 /* Assets.xcassets */; };
@@ -27,11 +29,8 @@
 		8BE2949E2C4E7B08003D6768 /* CommentViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2949A2C4E7B08003D6768 /* CommentViewService.swift */; };
 		8BE294A02C4E7BA9003D6768 /* DetailCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2949F2C4E7BA9003D6768 /* DetailCommentView.swift */; };
 		8BE294A82C4E7C08003D6768 /* CommentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE294A32C4E7C07003D6768 /* CommentViewModelTests.swift */; };
-		8BE294A92C4E7C08003D6768 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE294A52C4E7C07003D6768 /* Mocks.swift */; };
 		8BE294AA2C4E7C08003D6768 /* MockCommentViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE294A62C4E7C07003D6768 /* MockCommentViewService.swift */; };
 		8BE294AB2C4E7C08003D6768 /* Comments.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BE294A72C4E7C08003D6768 /* Comments.json */; };
-		8BE294AE2C4E7CA6003D6768 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE294AD2C4E7CA6003D6768 /* Alamofire */; };
-		8BE294B02C4E7CA6003D6768 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE294AF2C4E7CA6003D6768 /* AlamofireDynamic */; };
 		8BE294B22C4E7D98003D6768 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE294B12C4E7D98003D6768 /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +71,6 @@
 		8BE2949A2C4E7B08003D6768 /* CommentViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewService.swift; sourceTree = "<group>"; };
 		8BE2949F2C4E7BA9003D6768 /* DetailCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCommentView.swift; sourceTree = "<group>"; };
 		8BE294A32C4E7C07003D6768 /* CommentViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewModelTests.swift; sourceTree = "<group>"; };
-		8BE294A52C4E7C07003D6768 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		8BE294A62C4E7C07003D6768 /* MockCommentViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCommentViewService.swift; sourceTree = "<group>"; };
 		8BE294A72C4E7C08003D6768 /* Comments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comments.json; sourceTree = "<group>"; };
 		8BE294B12C4E7D98003D6768 /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
@@ -83,8 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE294AE2C4E7CA6003D6768 /* Alamofire in Frameworks */,
-				8BE294B02C4E7CA6003D6768 /* AlamofireDynamic in Frameworks */,
+				8B9772B92C4F75FA00DEFEAD /* Alamofire in Frameworks */,
+				8B9772BB2C4F75FA00DEFEAD /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCC33612C4E89CD00CED73D /* CuckooGenerator in Frameworks */,
-				8BCC335F2C4E89CD00CED73D /* Cuckoo in Frameworks */,
+				8B9772D82C4F908000DEFEAD /* CuckooGenerator in Frameworks */,
+				8B9772D62C4F8D9600DEFEAD /* Cuckoo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +217,6 @@
 		8BE294A42C4E7C07003D6768 /* GeneratedMocks */ = {
 			isa = PBXGroup;
 			children = (
-				8BE294A52C4E7C07003D6768 /* Mocks.swift */,
 			);
 			path = GeneratedMocks;
 			sourceTree = "<group>";
@@ -241,8 +238,8 @@
 			);
 			name = CuckooP3;
 			packageProductDependencies = (
-				8BE294AD2C4E7CA6003D6768 /* Alamofire */,
-				8BE294AF2C4E7CA6003D6768 /* AlamofireDynamic */,
+				8B9772B82C4F75FA00DEFEAD /* Alamofire */,
+				8B9772BA2C4F75FA00DEFEAD /* AlamofireDynamic */,
 			);
 			productName = CuckooP3;
 			productReference = 8BD5533B2C453A0700DC73A8 /* CuckooP3.app */;
@@ -263,8 +260,8 @@
 			);
 			name = CuckooP3Tests;
 			packageProductDependencies = (
-				8BCC335E2C4E89CD00CED73D /* Cuckoo */,
-				8BCC33602C4E89CD00CED73D /* CuckooGenerator */,
+				8B9772D52C4F8D9600DEFEAD /* Cuckoo */,
+				8B9772D72C4F908000DEFEAD /* CuckooGenerator */,
 			);
 			productName = CuckooP3Tests;
 			productReference = 8BD5534B2C453A0A00DC73A8 /* CuckooP3Tests.xctest */;
@@ -321,8 +318,8 @@
 			);
 			mainGroup = 8BD553322C453A0700DC73A8;
 			packageReferences = (
-				8BE294AC2C4E7CA6003D6768 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				8BCC335D2C4E89CD00CED73D /* XCRemoteSwiftPackageReference "Cuckoo" */,
+				8B9772B72C4F75F900DEFEAD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8B9772D42C4F8D9600DEFEAD /* XCRemoteSwiftPackageReference "Cuckoo" */,
 			);
 			productRefGroup = 8BD5533C2C453A0700DC73A8 /* Products */;
 			projectDirPath = "";
@@ -390,7 +387,6 @@
 				8BE294AA2C4E7C08003D6768 /* MockCommentViewService.swift in Sources */,
 				8BE294A82C4E7C08003D6768 /* CommentViewModelTests.swift in Sources */,
 				8BD553502C453A0A00DC73A8 /* CuckooP3Tests.swift in Sources */,
-				8BE294A92C4E7C08003D6768 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -528,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -554,6 +550,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +580,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,7 +603,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYN7VXVHJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbl.CuckooP3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,7 +623,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYN7VXVHJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbl.CuckooP3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -644,6 +642,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U34265JX8B;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbl.CuckooP3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -662,6 +661,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U34265JX8B;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbl.CuckooP3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -714,15 +714,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8BCC335D2C4E89CD00CED73D /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.9;
-			};
-		};
-		8BE294AC2C4E7CA6003D6768 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		8B9772B72C4F75F900DEFEAD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -730,28 +722,36 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		8B9772D42C4F8D9600DEFEAD /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.9;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8BCC335E2C4E89CD00CED73D /* Cuckoo */ = {
+		8B9772B82C4F75FA00DEFEAD /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8BCC335D2C4E89CD00CED73D /* XCRemoteSwiftPackageReference "Cuckoo" */;
-			productName = Cuckoo;
-		};
-		8BCC33602C4E89CD00CED73D /* CuckooGenerator */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8BCC335D2C4E89CD00CED73D /* XCRemoteSwiftPackageReference "Cuckoo" */;
-			productName = CuckooGenerator;
-		};
-		8BE294AD2C4E7CA6003D6768 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8BE294AC2C4E7CA6003D6768 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 8B9772B72C4F75F900DEFEAD /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		8BE294AF2C4E7CA6003D6768 /* AlamofireDynamic */ = {
+		8B9772BA2C4F75FA00DEFEAD /* AlamofireDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8BE294AC2C4E7CA6003D6768 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 8B9772B72C4F75F900DEFEAD /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = AlamofireDynamic;
+		};
+		8B9772D52C4F8D9600DEFEAD /* Cuckoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9772D42C4F8D9600DEFEAD /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = Cuckoo;
+		};
+		8B9772D72C4F908000DEFEAD /* CuckooGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9772D42C4F8D9600DEFEAD /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = CuckooGenerator;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

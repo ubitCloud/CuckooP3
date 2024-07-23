@@ -2,12 +2,9 @@
 imports = ["Foundation"]
 testableImports = ["CuckooP3"]
 sources = [
-    "./CuckooP2/CommentList/Service/*.swift",
+        "./CuckooP2/CommentList/Service/*.swift",
 ]
-exclude = [
-    "ExcludedTestClass",
-    "ExcludedProtocol",
-]
+exclude = []
 # regex = ""
 output = "./CuckooP2Tests/GeneratedMocks/Mocks.swift"
 
